@@ -41,8 +41,8 @@ strong {
 
 <h1>Gizlilik Politikası</h1>
 
-<p><strong>Son Güncelleme:</strong> 20 Mart 2026<br>
-<strong>Versiyon:</strong> 1.0.0</p>
+<p><strong>Son Güncelleme:</strong> 12 Nisan 2026<br>
+<strong>Versiyon:</strong> 1.1.0</p>
 
 <p>Nexa uygulamasını kullandığınız için teşekkür ederiz. Bu gizlilik politikası, Codeflare Software ("biz", "bizim") tarafından geliştirilen Nexa mobil uygulaması ("Uygulama") aracılığıyla toplanan, kullanılan ve korunan kişisel verileriniz hakkında sizi bilgilendirmek amacıyla hazırlanmıştır.</p>
 
@@ -89,6 +89,15 @@ strong {
 <li>Hata raporları</li>
 </ul>
 
+<h3>1.6 Abonelik ve Ödeme Verileri</h3>
+<ul>
+<li>Abonelik durumu (aktif/pasif)</li>
+<li>Abonelik planı (aylık/yıllık)</li>
+<li>Abonelik başlangıç ve bitiş tarihleri</li>
+<li>Ödeme işlem bilgileri (RevenueCat aracılığıyla)</li>
+<li>Ürün tanımlayıcıları</li>
+</ul>
+
 <h2>2. Verilerin Kullanım Amaçları</h2>
 
 <ul>
@@ -101,6 +110,8 @@ strong {
 <li>Kullanıcı deneyiminin iyileştirilmesi</li>
 <li>Teknik destek sağlanması</li>
 <li>Güvenlik ve dolandırıcılık önleme</li>
+<li>Abonelik ve premium üyelik yönetimi</li>
+<li>Ödeme işlemlerinin yürütülmesi</li>
 </ul>
 
 <h2>3. Veri Saklama ve Güvenlik</h2>
@@ -137,14 +148,17 @@ strong {
 </ul>
 
 <h3>4.2 Üçüncü Taraflarla Paylaşım</h3>
+<p>Verileriniz aşağıdaki durumlar dışında üçüncü taraflarla paylaşılmaz:</p>
 <ul>
 <li>Yasal zorunluluklar (mahkeme kararı, yasal süreçler)</li>
 <li>Kullanıcının açık rızası ile</li>
 <li>Hizmet sağlayıcılar (Supabase, bulut depolama) - yalnızca hizmet sunumu için gerekli olan veriler</li>
+<li>Ödeme işleme sağlayıcıları (RevenueCat, Apple App Store, Google Play Store) - abonelik yönetimi için gerekli veriler</li>
 </ul>
 
 <h2>5. Kullanıcı Hakları</h2>
 
+<p>KVKK ve GDPR kapsamında aşağıdaki haklara sahipsiniz:</p>
 <ul>
 <li><strong>Bilgi Talep Etme:</strong> Hangi verilerinizin işlendiğini öğrenme</li>
 <li><strong>Erişim Hakkı:</strong> Verilerinize erişim talep etme</li>
@@ -179,7 +193,6 @@ strong {
 <h2>9. Hesap Silme</h2>
 
 <p>Hesabınızı uygulama içinden "Hesabı Sil" seçeneği ile silebilirsiniz. Hesap silme işlemi:</p>
-
 <ul>
 <li>Tüm kişisel verilerinizi siler</li>
 <li>Ölçüm ve plan verilerinizi siler</li>
@@ -214,14 +227,16 @@ strong {
 
 <h1>Kullanıcı Sözleşmesi</h1>
 
-<p><strong>Son Güncelleme:</strong> 20 Mart 2026<br>
-<strong>Versiyon:</strong> 1.0.0</p>
+<p><strong>Son Güncelleme:</strong> 12 Nisan 2026<br>
+<strong>Versiyon:</strong> 1.1.0</p>
+
+<p>Bu Kullanıcı Sözleşmesi ("Sözleşme"), Codeflare Software ("biz", "bizim") tarafından geliştirilen Nexa mobil uygulaması ("Uygulama") kullanımına ilişkin şartları ve koşulları belirler.</p>
 
 <h2>1. Sözleşmenin Kabulü</h2>
 <p>Uygulamayı kullanarak, bu sözleşmeyi okuduğunuzu, anladığınızı ve kabul ettiğinizi beyan edersiniz. Sözleşmeyi kabul etmiyorsanız, uygulamayı kullanmamalısınız.</p>
 
 <h2>2. Hizmet Tanımı</h2>
-<p>Nexa, antrenörler ve danışanlar arasında fitness ve beslenme takibi sağlayan bir mobil uygulamadır.</p>
+<p>Nexa, antrenörler ve danışanlar arasında fitness ve beslenme takibi sağlayan bir mobil uygulamadır. Uygulama aşağıdaki özellikleri sunar:</p>
 
 <h3>2.1 Antrenörler İçin</h3>
 <ul>
@@ -235,52 +250,325 @@ strong {
 
 <h3>2.2 Danışanlar İçin</h3>
 <ul>
-<li>Antrenöre bağlanma</li>
-<li>Ölçüm geçmişini görüntüleme</li>
-<li>Planları görüntüleme</li>
-<li>Mesajlaşma</li>
-<li>İlerleme takibi</li>
+<li>Antrenöre bağlanma (antrenör kodu ile)</li>
+<li>Kişisel ölçüm geçmişini görüntüleme</li>
+<li>Haftalık plan ve programları görüntüleme</li>
+<li>Antrenörle mesajlaşma</li>
+<li>İlerleme takibi ve grafikler</li>
 </ul>
 
 <h2>3. Hesap Oluşturma ve Güvenlik</h2>
 
-<h3>3.1 Gereksinimler</h3>
+<h3>3.1 Hesap Gereksinimleri</h3>
 <ul>
-<li>13 yaş ve üzeri</li>
-<li>Geçerli e-posta</li>
-<li>Doğru bilgi</li>
+<li>13 yaş ve üzeri olmalısınız</li>
+<li>Geçerli bir e-posta adresi sağlamalısınız</li>
+<li>Doğru ve güncel bilgiler vermelisiniz</li>
+<li>Kullanıcı rolünüzü (Antrenör/Danışan) seçmelisiniz</li>
 </ul>
 
-<h3>3.2 Güvenlik</h3>
+<h3>3.2 Hesap Güvenliği</h3>
 <ul>
-<li>Hesap güvenliği kullanıcı sorumluluğundadır</li>
-<li>Yetkisiz erişim bildirilmelidir</li>
+<li>Hesap bilgilerinizi gizli tutmaktan siz sorumlusunuz</li>
+<li>Hesabınızda gerçekleşen tüm aktivitelerden siz sorumlusunuz</li>
+<li>Yetkisiz erişim durumunda derhal bize bildirmelisiniz</li>
+<li>Hesabınızı başkalarıyla paylaşamazsınız</li>
+</ul>
+
+<h3>3.3 Hesap Türleri</h3>
+<ul>
+<li><strong>Antrenör Hesabı:</strong> Danışan ekleyebilir, plan oluşturabilir, ölçüm kaydedebilir</li>
+<li><strong>Danışan Hesabı:</strong> Antrenör kodunu kullanarak antrenöre bağlanabilir, planları görüntüleyebilir</li>
 </ul>
 
 <h2>4. Kullanım Kuralları</h2>
 
+<h3>4.1 İzin Verilen Kullanım</h3>
 <ul>
-<li>Yasal kullanım</li>
-<li>Fake bilgi yasaktır</li>
-<li>Reverse engineering yasaktır</li>
-<li>Spam yasaktır</li>
+<li>Uygulamayı yalnızca yasal amaçlarla kullanmalısınız</li>
+<li>Kişisel fitness ve beslenme takibi için kullanmalısınız</li>
+<li>Doğru ve güncel bilgiler sağlamalısınız</li>
 </ul>
 
-<h2>5. Sağlık Feragatnamesi</h2>
+<h3>4.2 Yasak Davranışlar</h3>
+<ul>
+<li>Sahte veya yanıltıcı bilgi sağlamak</li>
+<li>Başkasının hesabını izinsiz kullanmak</li>
+<li>Uygulamayı tersine mühendislik yapmak</li>
+<li>Otomatik sistemler veya botlar kullanmak</li>
+<li>Zararlı yazılım veya virüs yaymak</li>
+<li>Diğer kullanıcıları taciz etmek veya rahatsız etmek</li>
+<li>Spam veya istenmeyen içerik göndermek</li>
+<li>Telif hakkı ihlali yapmak</li>
+<li>Uygulamanın güvenliğini tehlikeye atmak</li>
+<li>Yasal olmayan içerik paylaşmak</li>
+</ul>
 
-<p>Uygulama tıbbi tavsiye sağlamaz.</p>
+<h2>5. Antrenör-Danışan İlişkisi</h2>
 
-<h2>6. Sorumluluk Sınırlaması</h2>
+<h3>5.1 Antrenör Sorumlulukları</h3>
+<ul>
+<li>Antrenörler, danışanlarına profesyonel hizmet sunmaktan sorumludur</li>
+<li>Antrenörler, danışan verilerini gizli tutmalıdır</li>
+<li>Antrenörler, yalnızca kendilerine bağlı danışanların verilerine erişebilir</li>
+<li>Antrenörler, danışan bilgilerini üçüncü taraflarla paylaşamaz</li>
+</ul>
 
-<p>Hizmet olduğu gibi sunulur.</p>
+<h3>5.2 Danışan Sorumlulukları</h3>
+<ul>
+<li>Danışanlar, doğru sağlık bilgileri sağlamalıdır</li>
+<li>Danışanlar, antrenör tavsiyelerini kendi sorumluluklarında uygular</li>
+<li>Danışanlar, sağlık sorunları için tıbbi profesyonellere danışmalıdır</li>
+</ul>
 
-<h2>7. Uyuşmazlık</h2>
+<h3>5.3 Eşleştirme ve Bağlantı Kesme</h3>
+<ul>
+<li>Danışanlar, antrenör kodu ile antrenöre bağlanır</li>
+<li>Her iki taraf da istediği zaman bağlantıyı kesebilir</li>
+<li>Bağlantı kesildiğinde, antrenör artık danışan verilerine erişemez</li>
+</ul>
 
-<p>Türkiye Cumhuriyeti yasaları geçerlidir. İstanbul Mahkemeleri yetkilidir.</p>
+<h2>6. İçerik ve Fikri Mülkiyet</h2>
 
-<h2>8. İletişim</h2>
+<h3>6.1 Kullanıcı İçeriği</h3>
+<ul>
+<li>Yüklediğiniz içerikten (profil fotoğrafı, mesajlar) siz sorumlusunuz</li>
+<li>İçeriğinizin yasal ve uygun olduğunu garanti edersiniz</li>
+<li>Biz, uygunsuz içeriği kaldırma hakkını saklı tutarız</li>
+</ul>
 
-<p>codeflaresoftware@gmail.com</p>
+<h3>6.2 Uygulama İçeriği</h3>
+<ul>
+<li>Uygulama tasarımı, logosu ve içeriği bizim mülkiyetindedir</li>
+<li>Uygulamayı kopyalayamaz, değiştiremez veya dağıtamazsınız</li>
+<li>Ticari marka ve logoları izinsiz kullanamazsınız</li>
+</ul>
+
+<h2>7. Sağlık ve Fitness Feragatnamesi</h2>
+
+<h3>7.1 Tıbbi Tavsiye Değildir</h3>
+<ul>
+<li>Uygulama tıbbi tavsiye, teşhis veya tedavi sağlamaz</li>
+<li>Sağlık sorunları için mutlaka doktor veya sağlık uzmanına danışın</li>
+<li>Uygulamadaki bilgiler yalnızca genel bilgilendirme amaçlıdır</li>
+</ul>
+
+<h3>7.2 Kişisel Sorumluluk</h3>
+<ul>
+<li>Egzersiz ve beslenme programlarını kendi sorumluluğunuzda uygularsınız</li>
+<li>Sağlık durumunuza uygun olmayan aktivitelerden kaçının</li>
+<li>Herhangi bir sağlık sorunu yaşarsanız derhal tıbbi yardım alın</li>
+</ul>
+
+<h3>7.3 Sonuçlar Garanti Edilmez</h3>
+<ul>
+<li>Codeflare Software bir fitness veya beslenme hizmeti sağlayıcısı değildir; yalnızca antrenör ve danışan arasında iletişim ve takip platformu sunar</li>
+<li>Antrenman ve beslenme programlarının içeriği, doğruluğu ve uygunluğu tamamen ilgili antrenörün sorumluluğundadır</li>
+<li>Bu programların uygulanması danışanın kendi sorumluluğundadır</li>
+<li>Fitness ve kilo verme sonuçları kişiden kişiye değişir; belirli sonuçlar garanti edilmez</li>
+<li>Codeflare Software, antrenör tarafından verilen tavsiyelerden veya danışanın bu tavsiyeleri uygulamasından kaynaklanan hiçbir sonuçtan sorumlu tutulamaz</li>
+</ul>
+
+<h2>8. Ölçüm ve Veri Doğruluğu</h2>
+<ul>
+<li>Ölçüm verilerinin doğruluğundan kullanıcılar sorumludur</li>
+<li>Uygulama, girilen verilerin doğruluğunu garanti etmez</li>
+<li>Yanlış veri girişinden kaynaklanan sorunlardan biz sorumlu değiliz</li>
+</ul>
+
+<h2>9. Mesajlaşma ve İletişim</h2>
+
+<h3>9.1 Mesajlaşma Kuralları</h3>
+<ul>
+<li>Mesajlar saygılı ve profesyonel olmalıdır</li>
+<li>Taciz, hakaret veya uygunsuz içerik yasaktır</li>
+<li>Spam veya reklam mesajları gönderilemez</li>
+</ul>
+
+<h3>9.2 İçerik Moderasyonu</h3>
+<ul>
+<li>Biz, mesaj içeriklerini izleme hakkını saklı tutarız</li>
+<li>Uygunsuz mesajlar silinebilir</li>
+<li>Kural ihlali yapan hesaplar askıya alınabilir</li>
+</ul>
+
+<h2>10. Ücretlendirme ve Abonelik</h2>
+
+<h3>10.1 Ücretsiz Hizmetler</h3>
+<ul>
+<li>Temel uygulama özellikleri ücretsizdir</li>
+<li>Ücretsiz kullanıcılar sınırlı özelliklere erişebilir (örn. maksimum 1 danışan eşleştirme)</li>
+</ul>
+
+<h3>10.2 Nexa Premium Abonelik</h3>
+<p>Nexa Premium aboneliği, antrenörler için aşağıdaki ek özellikleri sunar:</p>
+<ul>
+<li>Birden fazla danışan eşleştirme</li>
+<li>Duyuru ve ilan oluşturma</li>
+<li>Ajanda: boş saat analizi ve seans durumu takibi</li>
+<li>Haftalık plan: geçen haftayı kopyalama ve şablondan seçme</li>
+</ul>
+
+<h3>10.3 Abonelik Planları</h3>
+<ul>
+<li><strong>Aylık Abonelik:</strong> Her ay otomatik olarak yenilenir</li>
+<li><strong>Yıllık Abonelik:</strong> Her yıl otomatik olarak yenilenir</li>
+<li>Güncel fiyatlar uygulama içindeki abonelik sayfasında görüntülenebilir</li>
+</ul>
+
+<h3>10.4 Ödeme İşleme</h3>
+<ul>
+<li>Ödemeler Apple App Store (iOS) veya Google Play Store (Android) üzerinden işlenir</li>
+<li>Abonelik yönetimi RevenueCat altyapısı aracılığıyla sağlanır</li>
+<li>Ödeme bilgileriniz doğrudan tarafımızca saklanmaz; ilgili platform sağlayıcıları tarafından işlenir</li>
+</ul>
+
+<h3>10.5 Otomatik Yenileme</h3>
+<ul>
+<li>Abonelikler, mevcut dönemin bitiminden en az 24 saat önce iptal edilmediği sürece otomatik olarak yenilenir</li>
+<li>Yenileme ücreti, mevcut dönemin bitiminden 24 saat önce hesabınızdan tahsil edilir</li>
+<li>Otomatik yenilemeyi cihazınızın hesap ayarlarından yönetebilirsiniz</li>
+</ul>
+
+<h3>10.6 İptal Politikası</h3>
+<ul>
+<li>Aboneliğinizi istediğiniz zaman iptal edebilirsiniz</li>
+<li>İptal, Apple App Store (iOS) veya Google Play Store (Android) hesap ayarlarından yapılır</li>
+<li>İptal durumunda, mevcut abonelik döneminin sonuna kadar premium özelliklere erişiminiz devam eder</li>
+<li>İptal sonrası hesabınız ücretsiz plana döner</li>
+</ul>
+
+<h3>10.7 İade Politikası</h3>
+<ul>
+<li>İade talepleri, satın alma işleminin yapıldığı platform (Apple App Store veya Google Play Store) üzerinden yönetilir</li>
+<li>İade koşulları ilgili platformun iade politikalarına tabidir</li>
+<li>Codeflare Software, platform üzerinden yapılan ödemelerde doğrudan iade işlemi yapamaz</li>
+</ul>
+
+<h3>10.8 Fiyat Değişiklikleri</h3>
+<ul>
+<li>Abonelik fiyatları önceden bildirimde bulunularak değiştirilebilir</li>
+<li>Mevcut aboneler, aktif dönemleri boyunca mevcut fiyattan yararlanır</li>
+<li>Fiyat değişiklikleri bir sonraki yenileme döneminde uygulanır</li>
+</ul>
+
+<h2>11. Hizmet Değişiklikleri ve Sonlandırma</h2>
+
+<h3>11.1 Hizmet Değişiklikleri</h3>
+<ul>
+<li>Biz, uygulamayı istediğimiz zaman değiştirme hakkını saklı tutarız</li>
+<li>Yeni özellikler eklenebilir veya mevcut özellikler kaldırılabilir</li>
+<li>Önemli değişiklikler kullanıcılara bildirilecektir</li>
+</ul>
+
+<h3>11.2 Hizmet Kesintileri</h3>
+<ul>
+<li>Bakım ve güncellemeler için geçici kesintiler olabilir</li>
+<li>Kesintisiz hizmet garanti edilmez</li>
+<li>Acil durumlarda hizmet geçici olarak durdurulabilir</li>
+</ul>
+
+<h3>11.3 Hesap Askıya Alma ve Sonlandırma</h3>
+<p>Aşağıdaki durumlarda hesabınız askıya alınabilir veya sonlandırılabilir:</p>
+<ul>
+<li>Sözleşme ihlali</li>
+<li>Yasadışı aktiviteler</li>
+<li>Diğer kullanıcılara zarar verme</li>
+<li>Uzun süreli hareketsizlik</li>
+<li>Güvenlik tehditleri</li>
+</ul>
+
+<h2>12. Sorumluluk Sınırlaması</h2>
+
+<h3>12.1 Hizmet "Olduğu Gibi" Sunulur</h3>
+<ul>
+<li>Uygulama "olduğu gibi" ve "mevcut olduğu şekilde" sunulur</li>
+<li>Hatasız çalışma garanti edilmez</li>
+<li>Belirli amaçlara uygunluk garanti edilmez</li>
+</ul>
+
+<h3>12.2 Sorumluluk Reddi</h3>
+<p>Codeflare Software aşağıdakilerden sorumlu değildir:</p>
+<ul>
+<li>Veri kaybı veya bozulması</li>
+<li>Hizmet kesintileri</li>
+<li>Üçüncü taraf hizmetlerindeki sorunlar</li>
+<li>Kullanıcı hatalarından kaynaklanan sorunlar</li>
+<li>Dolaylı, arızi veya sonuç olarak ortaya çıkan zararlar</li>
+<li>Antrenör-danışan ilişkisinden kaynaklanan sorunlar</li>
+<li>Sağlık sorunları veya yaralanmalar</li>
+</ul>
+
+<h3>12.3 Maksimum Sorumluluk</h3>
+<p>Toplam sorumluluğumuz, son 12 ayda ödediğiniz ücretlerle sınırlıdır (ücretsiz kullanıcılar için 0 TL).</p>
+
+<h2>13. Tazminat</h2>
+<p>Sözleşme ihlali, yasadışı kullanım veya üçüncü taraf haklarının ihlalinden kaynaklanan tüm talep, zarar ve masraflardan bizi tazmin etmeyi kabul edersiniz.</p>
+
+<h2>14. Gizlilik</h2>
+<p>Kişisel verilerinizin işlenmesi, Gizlilik Politikamızda detaylı olarak açıklanmıştır. Gizlilik Politikası bu sözleşmenin ayrılmaz bir parçasıdır.</p>
+
+<h2>15. Uyuşmazlık Çözümü</h2>
+
+<h3>15.1 Uygulanacak Hukuk</h3>
+<p>Bu sözleşme Türkiye Cumhuriyeti yasalarına tabidir.</p>
+
+<h3>15.2 Yargı Yetkisi</h3>
+<p>Sözleşmeden kaynaklanan uyuşmazlıklar, İstanbul Mahkemeleri ve İcra Daireleri'nin yetkisindedir.</p>
+
+<h3>15.3 Dostane Çözüm</h3>
+<p>Uyuşmazlık durumunda, öncelikle dostane çözüm yolları denenmelidir.</p>
+
+<h2>16. Genel Hükümler</h2>
+
+<h3>16.1 Sözleşme Değişiklikleri</h3>
+<ul>
+<li>Bu sözleşme istediğimiz zaman değiştirilebilir</li>
+<li>Önemli değişiklikler uygulama içi bildirim ile duyurulur</li>
+<li>Değişikliklerden sonra uygulamayı kullanmaya devam ederseniz, değişiklikleri kabul etmiş sayılırsınız</li>
+</ul>
+
+<h3>16.2 Bölünebilirlik</h3>
+<p>Sözleşmenin herhangi bir maddesi geçersiz sayılırsa, diğer maddeler geçerliliğini korur.</p>
+
+<h3>16.3 Feragat</h3>
+<p>Herhangi bir hakkımızı kullanmamamız, o haktan feragat ettiğimiz anlamına gelmez.</p>
+
+<h3>16.4 Devir</h3>
+<p>Bu sözleşmeyi başkasına devredemezsiniz. Biz, sözleşmeyi istediğimiz tarafa devredebiliriz.</p>
+
+<h3>16.5 Tam Anlaşma</h3>
+<p>Bu sözleşme, taraflar arasındaki tam anlaşmayı oluşturur ve önceki tüm anlaşmaların yerini alır.</p>
+
+<h2>17. İletişim</h2>
+<p><strong>E-posta:</strong> codeflaresoftware@gmail.com<br>
+<strong>Instagram:</strong> @codeflare_software</p>
+
+<h2>18. Özel Hükümler</h2>
+
+<h3>18.1 Antrenör Kodu Sistemi</h3>
+<ul>
+<li>Her antrenör, benzersiz bir antrenör koduna sahiptir</li>
+<li>Danışanlar, bu kodu kullanarak antrenöre bağlanır</li>
+<li>Antrenör kodu paylaşımından antrenör sorumludur</li>
+<li>Kod kötüye kullanımı durumunda hesap askıya alınabilir</li>
+</ul>
+
+<h3>18.2 Veri Saklama ve Silme</h3>
+<ul>
+<li>Hesap silme talebinden sonra veriler 30 gün içinde silinir</li>
+<li>Yasal yükümlülükler için gerekli veriler saklanabilir</li>
+<li>Silinen veriler geri getirilemez</li>
+</ul>
+
+<h3>18.3 Uygulama Güncellemeleri</h3>
+<ul>
+<li>Düzenli güvenlik ve özellik güncellemeleri yapılır</li>
+<li>Güncellemeleri yüklemek kullanıcının sorumluluğundadır</li>
+<li>Eski versiyonlar desteklenmeyebilir</li>
+</ul>
+
+<p>Bu sözleşmeyi kabul ederek, yukarıdaki tüm şartları okuduğunuzu, anladığınızı ve kabul ettiğinizi beyan edersiniz.</p>
 
 </body>
 </html>
